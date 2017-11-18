@@ -12,8 +12,6 @@ First thing I would do is write out some user stories for what the client wants.
 
 If the client agrees with the users stories and the general idea that we give them from their description of what they want. We can move forward with designing pages:
 
-[comment]: <> (This is a comment, it will not be included)
-
 [Designs](/designs/devicen.pdf)
 
 *All designs are done with Adobe XD, Adobe Photoshop, and Adobe Illustrator.*
