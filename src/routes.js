@@ -5,9 +5,7 @@ import Landing from './views/landing';
 
 const Routes = (props) => (
   <Router {...props}>
-    <div>
-      <Route exact path="/" component={Landing} />
-    </div>
+    <Route exact path="/" component={Landing} />
   </Router>
 );
 
