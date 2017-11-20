@@ -27,3 +27,114 @@ a {
 a:hover {
   color: #ffec7a;
 }
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+
+}
+
+.landing {
+  height: 100%;
+  background: #000 url('../images/landing-background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-logo {
+  position: absolute;
+  font-weight: bold;
+  color: #ffe121;
+  padding: 15px;
+  z-index: 2;
+}
+
+.landing-logo a:hover {
+  text-decoration: none;
+  color: #ffe121;
+}
+
+.landing-overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, .35);
+}
+
+.landing-info {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  display: none;
+}
+
+.landing-btn {
+  display: block;
+  width: 100vw;
+  font-size: 2em;
+  padding: 10px 0;
+  color: #000;
+  background: #ffe121;
+  text-align: center;
+}
+
+.landing-btn:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.landing-slogan {
+  font-size: 3.5em;
+  color: #fff;
+}
+
+.landing-content {
+  height: 100%;
+  padding-top: 60px;
+  position: relative;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  .landing-slogan {
+    text-align: center;
+  }
+
+  .landing-btn {
+    max-width: 400px;
+    position: relative;
+  }
+
+  .landing-info {
+    display: block;
+  }
+
+  .landing-content {
+    height: initial;
+  }
+}
+
+.form {
+  color: #fff;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-label {
+  padding: 0 2px;
+  font-size: 0.75em;
+}
+
+.form-input {
+  border: 1px solid #fff;
+  display: block;
+  outline: none;
+  background: rgba(0,0,0,0);
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
