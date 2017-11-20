@@ -11,9 +11,9 @@ class Home extends Component {
     };
 
     let devices = [];
-    for (var i = 0; i < 12; i++) {
+    for (var i = 1; i < 13; i++) {
       devices.push(
-        <div key={i} className="col-sm-3"><img className="home-device-image" alt="pixel2" src={pixel2} width="100"></img></div>
+        <div key={i} className="col-sm-3"><Link to={"./device/" + i}><img className="home-device-image" alt="pixel2" src={pixel2} width="100"></img></Link></div>
       );
     }
 

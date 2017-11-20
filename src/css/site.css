@@ -21,14 +21,6 @@ button:hover {
   cursor: pointer;
 }
 
-a {
-  color: #ffe121;
-}
-
-a:hover {
-  color: #ffec7a;
-}
-
 li {
   margin-left: 24px;
 }
@@ -52,9 +44,11 @@ li {
 .landing-logo {
   position: absolute;
   font-weight: bold;
-  color: #ffe121;
   padding: 15px;
   z-index: 2;
+}
+.landing-logo a {
+  color: #ffe121;
 }
 .landing-logo a:hover {
   text-decoration: none;
@@ -69,6 +63,12 @@ li {
   color: #fff;
   margin-top: 10px;
   display: none;
+}
+.landing-info a {
+  color: #ffe121;
+}
+.landing-info a:hover {
+  color: #ffec7a;
 }
 .landing-btn {
   display: block;
