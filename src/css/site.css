@@ -6,6 +6,7 @@
 
 html, body, #root {
   height: 100%;
+  background: #000;
 }
 
 button {
@@ -28,12 +29,15 @@ a:hover {
   color: #ffec7a;
 }
 
+li {
+  margin-left: 24px;
+}
+
 .switch-wrapper {
   position: relative;
 }
-
 .switch-wrapper > div {
-  height: 100%;
+  min-height: 100%;
   width: 100vw;
   position: absolute;
 
@@ -45,7 +49,6 @@ a:hover {
   background-size: cover;
   background-position: center;
 }
-
 .landing-logo {
   position: absolute;
   font-weight: bold;
@@ -53,24 +56,20 @@ a:hover {
   padding: 15px;
   z-index: 2;
 }
-
 .landing-logo a:hover {
   text-decoration: none;
   color: #ffe121;
 }
-
 .landing-overlay {
   height: 100%;
   background: rgba(0, 0, 0, .35);
 }
-
 .landing-info {
   text-align: center;
   color: #fff;
   margin-top: 10px;
   display: none;
 }
-
 .landing-btn {
   display: block;
   width: 100vw;
@@ -80,17 +79,14 @@ a:hover {
   background: #ffe121;
   text-align: center;
 }
-
 .landing-btn:hover {
   color: #000;
   text-decoration: none;
 }
-
 .landing-slogan {
   font-size: 3.5em;
   color: #fff;
 }
-
 .landing-content {
   height: 100%;
   padding-top: 60px;
@@ -113,7 +109,7 @@ a:hover {
   }
 
   .landing-content {
-    height: initial;
+    height: auto;
   }
 }
 
@@ -122,12 +118,10 @@ a:hover {
   max-width: 400px;
   margin: auto;
 }
-
 .form-label {
   padding: 0 2px;
   font-size: 0.75em;
 }
-
 .form-input {
   border: 1px solid #fff;
   display: block;
@@ -137,4 +131,58 @@ a:hover {
   padding: 10px;
   margin-bottom: 20px;
   width: 100%;
+}
+
+.home {
+  background: #eee;
+  min-height:100%;
+  color: #222;
+}
+.home-devices {
+  margin-top: 20px;
+}
+.home-device-image {
+  margin: auto;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.navbar-nav {
+  color: #fff;
+}
+.navbar-nav:hover {
+  color: #fff;
+}
+.navbar-logo {
+  color: #ffe121;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.navbar-logo:hover {
+  text-decoration: none;
+  color: #ffe121;
+}
+
+.body {
+  padding-top: 80px;
+}
+
+.searchbar {
+  border: 1px solid #222;
+  outline: none;
+  background: rgba(0,0,0,0);
+  padding: 8px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.btn-add-device {
+  border: 1px solid #222;
+  outline: none;
+  background: rgba(0,0,0,0);
+  padding: 8px;
+}
+.btn-add-device:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.1);
 }
