@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 
 import Routes from './routes';
 import store from './store';
-import registerServiceWorker from './registerServiceWorker';
+import { unregister } from './registerServiceWorker';
 
 import './css/bootstrap.min.css'
 import './css/site.css';
@@ -19,4 +19,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-registerServiceWorker();
+unregister();
